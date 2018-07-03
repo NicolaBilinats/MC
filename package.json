@@ -7,19 +7,21 @@
     "@material-ui/icons": "^1.1.0",
     "bootstrap": "^4.1.1",
     "classnames": "latest",
+    "grapesjs": "^0.14.21",
     "normalize": "^0.3.1",
+    "radium": "latest",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^2.5.2",
     "react-coverflow": "^0.2.14",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "radium": "latest"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-standalone": "webpack-dev-server --content-base build"
   }
 }

@@ -1,6 +1,6 @@
 import React, {Component}  from 'react';
 import Coverflow from 'react-coverflow';
-import Radium, { StyleRoot } from 'radium';
+import { StyleRoot } from 'radium';
 
 // const fn = function () {
     /* do your action */
